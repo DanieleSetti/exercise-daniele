@@ -1,0 +1,29 @@
+.nav {
+    position: fixed;
+    background: var(--primary);
+    width: 65px;
+    height: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 160px);
+}
+
+.Logo {
+    padding: 50px 8px 25px;
+}
+
+.nav-icons {
+    padding: 5px 23px;
+}
+
+.nav-setting {
+    padding: 10px 23px;
+}
+
+.nav-icons img {
+    padding: 100% 0;
+}

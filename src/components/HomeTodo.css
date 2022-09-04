@@ -1,0 +1,28 @@
+.home-todo {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 0 ;
+}
+
+.todo-task {
+    display: flex;
+}
+
+.home-todo-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: var(--primary);
+}
+
+.todo-task-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 15px;
+}
+
+.task-subtitle {
+    font-family: 'Quicksand', sans-serif;
+}

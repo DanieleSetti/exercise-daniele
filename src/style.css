@@ -1,0 +1,43 @@
+:root {
+	--primary: #000000;
+    --secondary: #D0E1E9;
+	--light: #DFECF1;
+	--grey: #404040;
+
+    --notification: #75C65D;
+    --nc-txt: #6C9A6B;
+    --nc-bg: #C5E1CE;
+    --io-txt: #9D263B;
+    --io-bg: #E4D9E3;
+
+    --email-txt: #5B5F61;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-bottom: 0.5rem;    
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+    font-size: 0.90rem;
+}
+
+h4 {
+    font-size: .80rem;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+}

@@ -1,0 +1,11 @@
+.home {
+    position: absolute;
+    background: var(--light);
+    height: 100%;
+    width: -webkit-fill-available;
+    left: 385px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

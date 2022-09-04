@@ -1,0 +1,65 @@
+.profile-photo {
+    padding: 13px;
+}
+
+.personal-info {
+    position: absolute;
+    background: var(--secondary);
+    height: 100%;
+    left: 65px;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pi-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.pi-block-img {
+    width: 65px;
+    height: 65px;
+    margin: 0 15px 0 0;
+}
+
+.pi-block-txt {
+    width: 50%;
+}
+
+.pi-statistic {
+    background-color: var(--light);
+    border-radius: 15px;
+    padding: 20px 20px;
+    display: flex;
+}
+
+.statistic-container {
+    width: 110px;
+}
+
+.statistic-block {
+    display: flex;
+    align-items: center;
+}
+
+.nc-percentage {
+    background-color: var(--nc-bg);
+    color: var(--nc-txt);
+    border-radius: 5px;
+    padding: 2px 6px;
+    font-size: .80rem;
+    margin-left: 8px;
+}
+
+.io-percentage {
+    background-color: var(--io-bg);
+    color: var(--io-txt);
+    border-radius: 5px;
+    padding: 2px 6px;
+    font-size: .80rem;
+    margin-left: 8px;
+}

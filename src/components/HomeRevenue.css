@@ -1,0 +1,23 @@
+.home-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.home-title {
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.revenue-chart {
+    width: 40%;
+}
+
+.line-chart {
+    width: 50%;
+}
